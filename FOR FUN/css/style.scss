@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: .5rem 3rem;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #649fd9;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    color: #649fd9;
+
+    &:hover{
+        color: white;
+        background-color: #649fd9;
+        border: 1px solid white;
+    }
+}
+.top{
+    font-family: Tahoma;
+    height: 3rem;
+    padding: .5rem;
+    padding-left: 6rem;
+    color: #6b6c6e;
+    h4{
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-transform:uppercase;  
+    }
+    p{ font-size: .7rem;}  
+}
+
+#Second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #649fd9;
+    height: 37rem;
+
+    .S_left{
+        img{
+            height:36rem;
+            padding-left:5rem ;
+            filter:drop-shadow(-10px 10px 30px black);
+        }
+    }
+
+    .S_right{
+        .bord{
+            border-bottom: 1px solid white;
+            padding-bottom: 2rem;
+        }
+        h3{
+            margin-bottom: 8px;
+            color: white;
+            font-size: 2rem;
+        }
+        
+        p{
+            color: white;
+            width:20rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+#third{
+    height: 14rem;
+    padding:1.5rem 5rem ;
+    text-align: center;
+    
+    .T_top{
+        font-family: Tahoma;
+        margin-bottom: 2.3rem;
+        
+        h3{margin-bottom: 1.5rem;}
+        p{
+            width:40rem ;
+            margin-left:16rem ;
+        }
+
+    }
+
+}
+.Foot{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+    background-color: #649fd9;
+    padding: 0 6rem;
+    
+    .F_Box{
+        text-align: center;
+        color: white;
+        font-family: Tahoma;
+        font-size: .8rem;
+        font-weight: lighter;
+
+        img{
+            margin-bottom: 1rem;
+            height: 4rem;
+            padding-top: 1rem;
+        }
+        h3{
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid white;
+        }
+    }
+}

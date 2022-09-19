@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main {
+  background-color: #14172c;
+  margin: 3rem 5rem;
+  padding: 2rem 4rem;
+  font-family: Tahoma;
+  height: 45rem;
+}
+
+#main .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+#main .top .navbar {
+  margin-right: 4rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .top .navbar a {
+  margin-right: 2rem;
+  text-decoration: none;
+  font-size: .8rem;
+  color: #b1abab;
+}
+
+#main .top .navbar a:hover {
+  font-size: .9rem;
+  -webkit-transition: linear .2s;
+  transition: linear .2s;
+  color: white;
+}
+
+#main .top .navbar a span {
+  text-decoration: none;
+  font-size: .8rem;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+}
+
+#main .top .toptext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3.2rem;
+}
+
+#main .top .toptext h5 {
+  color: white;
+  font-size: .8rem;
+  margin-top: .2rem;
+}
+
+#main .top .toptext img {
+  margin-right: .9rem;
+}
+
+#main .bottom {
+  padding-left: 3.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .bottom .body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#main .bottom .body .bodtext {
+  margin-right: 2rem;
+  color: white;
+}
+
+#main .bottom .body .bodtext h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.9rem;
+}
+
+#main .bottom .body .bodtext p {
+  color: #aa9f9f;
+  font-size: .9rem;
+  margin-bottom: 1.9rem;
+}
+
+#main .bottom .body .mailsec p {
+  color: white;
+  font-size: .9rem;
+  margin-bottom: 5px;
+}
+
+#main .bottom .body .mailsec #mailaddress {
+  padding: 13px;
+  border: 0.2px solid #c0b6b6;
+  background-color: #1e2135;
+  border-radius: 5px;
+  padding-right: 3rem;
+  margin-right: 10px;
+}
+
+#main .bottom .body .mailsec #mailaddress::-webkit-input-placeholder {
+  color: white;
+}
+
+#main .bottom .body .mailsec #mailaddress:-ms-input-placeholder {
+  color: white;
+}
+
+#main .bottom .body .mailsec #mailaddress::-ms-input-placeholder {
+  color: white;
+}
+
+#main .bottom .body .mailsec #mailaddress::placeholder {
+  color: white;
+}
+
+#main .bottom .body .mailsec .notify {
+  background-color: #0090ff;
+  padding: 13px;
+  border: 1px solid #0090ff;
+  border-radius: 5px;
+  color: white;
+  padding-right: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .bottom .bleft {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  font-family: Tahoma;
+}
+
+#main .bottom .bleft .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #2a2e40;
+  border-radius: 5px;
+  padding: 2rem;
+  height: 10rem;
+  width: 28rem;
+  background-color: #2a2e40;
+  margin-bottom: 2rem;
+}
+
+#main .bottom .bleft .box1 .word {
+  text-align: center;
+}
+
+#main .bottom .bleft .box1 .word h4 {
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+}
+
+#main .bottom .bleft .box2 {
+  margin-left: 2.5rem;
+  border: 1px solid #2a2e40;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+  margin-right: 23rem;
+  background-color: #2a2e40;
+  font-size: .8rem;
+}
+
+#main .bottom .bleft .box2 p {
+  margin-top: 18px;
+}
+
+#main .bottom .box3 {
+  position: absolute;
+  top: 12.5rem;
+  right: -10rem;
+  border: 1px solid #2a2e40;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0.7rem;
+  margin-right: 19rem;
+  background-color: #2a2e40;
+  font-size: .8rem;
+}
+
+#main .bottom .box4 {
+  position: absolute;
+  top: 21rem;
+  right: -10.2rem;
+  border: 1px solid #2a2e40;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: #2a2e40;
+  margin-right: 19rem;
+  padding: 2.6rem;
+  font-size: .8rem;
+}
+
+#main .bottom .box4 p {
+  margin-top: 7px;
+}
+/*# sourceMappingURL=style.css.map */

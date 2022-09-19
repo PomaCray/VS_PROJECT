@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #14172c;
+    margin: 3rem 5rem;
+    padding: 2rem 4rem;
+    font-family: Tahoma;
+    height: 45rem;
+   
+    .top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6rem;
+        .navbar{
+            margin-right: 4rem;
+            justify-content: space-between;
+            a{
+                margin-right: 2rem;
+                    text-decoration: none;
+                    font-size: .8rem;
+                    color: rgb(177, 171, 171);
+
+                    &:hover{
+                        font-size: .9rem;
+                        transition: linear .2s;
+                        color: rgb(255, 255, 255);
+                        
+                    }
+                    
+                span{
+                    text-decoration: none;
+                    font-size: .8rem;
+                    color: white;
+                    border-bottom: 1px solid white;
+                    padding-bottom: 1rem;
+                    
+
+                }
+            }
+        }
+        .toptext{
+            display: flex;
+            align-items: center;
+            padding-left: 3.2rem;
+            h5{
+                color: white;
+                font-size: .8rem;
+                margin-top: .2rem;
+            }
+            img{
+                margin-right: .9rem;
+            }
+        }
+
+
+    }
+
+    .bottom{
+        padding-left: 3.2rem;
+        display: flex;
+
+        .body{
+            
+            flex: 1;
+            .bodtext{
+                margin-right: 2rem;
+                color: white;
+                h4{
+                    font-size: 1.5rem;
+                    margin-bottom: 1.9rem;
+                }
+                p{
+                    color: rgb(170, 159, 159);
+                    font-size: .9rem;
+                    margin-bottom: 1.9rem;
+                }
+            }
+            .mailsec{
+                p{
+                    color: white;
+                    font-size: .9rem;
+                    margin-bottom: 5px;
+                }
+                #mailaddress{
+                    &::placeholder{
+                        color: white;
+                    }
+                    padding: 13px;
+                    border: 0.2px solid rgb(192, 182, 182);
+                    background-color: #1e2135;
+                    border-radius: 5px;
+                    padding-right: 3rem;
+                    margin-right: 10px;
+                }
+                .notify{
+                  
+                    background-color: #0090ff;
+                    padding: 13px;
+                    border: 1px solid #0090ff;
+                    border-radius: 5px;
+                    color: white;
+                    padding-right: 4rem;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .bleft{
+            position: relative;
+            flex: 1;
+            color: white;
+            font-family: Tahoma ;
+            .box1{
+                
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #2a2e40;
+                border-radius: 5px;
+                padding: 2rem;
+                height: 10rem;
+                width: 28rem;
+                background-color: #2a2e40;
+                margin-bottom: 2rem;
+
+              
+
+                .word{
+                    text-align: center;
+                    h4{
+                       font-size: 1.5rem;
+                       margin-bottom: 7px;
+                    }
+                    p{
+
+                    }
+                }
+            }
+
+            .box2{
+                margin-left: 2.5rem;
+                border: 1px solid #2a2e40;
+                border-radius: 5px;
+                justify-content: center;
+                padding: 2rem;
+                margin-right: 23rem;
+                background-color: #2a2e40;
+                font-size: .8rem;
+                img{
+                
+                }
+                p{
+                    
+                    margin-top: 18px;
+                }
+            }
+        }
+
+        .box3{
+            position: absolute;
+            top: 12.5rem;
+            right: -10rem;
+            
+            border: 1px solid #2a2e40;
+            border-radius: 5px;
+            justify-content: center;
+            text-align: center;
+            padding: 0.7rem;
+            margin-right: 19rem;
+            background-color: #2a2e40;
+            font-size: .8rem;
+            
+
+
+        }
+        .box4{
+            position: absolute;
+            top: 21rem;
+            right: -10.2rem;
+            border: 1px solid #2a2e40;
+            border-radius: 5px;
+            justify-content: center;
+            text-align: center;
+            background-color: #2a2e40;
+            margin-right: 19rem;
+            padding: 2.6rem;
+            font-size: .8rem;
+
+            p{
+                margin-top: 7px;
+            }
+        }
+    }
+
+
+
+
+
+    
+}

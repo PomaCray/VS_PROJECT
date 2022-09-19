@@ -1,0 +1,141 @@
+div.banner{
+    background-image: url("../img/kiyamoto.jpg") ; 
+    width:695px ;
+    height:231px ;
+    color:white ;
+    clear: both;
+    position: relative;    
+}
+
+.grid_12 img{
+    height:300px ;
+    width:450px ;
+}
+ h3 {
+    font-size: 28px;
+    background-color:#00001111 ;
+    position: absolute;
+    top: 150px;    
+}
+.work h2{
+    font-size:26px ;
+    margin-bottom: -10px;
+    font-weight: normal;
+}
+.work img{
+    margin-bottom:20px ;
+}
+.work h4{
+    color:#787878 ;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1em;
+    border-bottom:1px solid #d1d1d1 ;
+    padding-bottom: 33px;
+    margin-bottom: 30px;
+    
+}
+nav a{
+    text-decoration:none ;
+     color: #7e7e7e;
+     text-transform:lowercase ;
+}
+nav a:hover , .selected{
+    color: black;
+    font-family:Georgia  ;
+}
+
+nav li{
+    margin-left:24px ;
+    display: inline;
+}
+nav {
+    float: right; 
+    
+}
+nav ul{
+    margin-top: 20px;
+}
+.stanly{
+    background:rgba(0, 0, 0, 0.486) ;
+    height:231px ;
+    margin-left:60px ;
+}
+header h1{
+    float: left;
+    margin:10px 10px 22px;
+    height: 23px;
+    width: 174px;
+}
+header{
+    overflow: hidden;
+}
+.main{
+    margin-top:20px ;
+}
+footer{
+    clear: both;
+    
+}
+footer p {
+   padding-top:20px ;
+    border-top: 1px solid #7e7e7e27;
+   
+}
+.button  {
+    background: #1b1b1b;
+    text-decoration: none;
+    padding: 6px;
+    color: aliceblue;
+}
+p {
+    font-size:13px ;
+    color:#353535 ;
+    line-height:20px ;
+    
+}
+h1,h2 {
+    letter-spacing: -1px;
+    
+}
+h2 {
+    font-size:26px ;
+    text-transform: lowercase;   
+} 
+.grid_9 h2 {
+    border-bottom: 1px solid #7e7e7e27;
+    padding-bottom:15px ;
+    margin-bottom: 15px;
+    line-height:1rem ;
+}
+blockquote p {
+    font-size:13px ;
+    line-height:20px ;
+    font-style: italic;
+    padding-left:20px ;
+
+
+}
+.main blockquote p:first-child:before {
+    content:'"' ;
+    font-size: 40px;
+    color: #bfbfbf;
+    font-style:italic ;
+    position: absolute;
+    top: 0;
+    left: -5px;
+}
+.main blockquote p:last-child:after {
+    content:'"' ;
+    font-size: 40px;
+    color: #bfbfbf;
+    float:right ;
+    font-style:italic ;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    
+}
+blockquote {
+    position: relative;
+}
