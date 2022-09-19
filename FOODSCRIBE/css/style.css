@@ -49,6 +49,21 @@
   color: #4eb371;
 }
 
+.navbar button {
+  color: #4eb371;
+  border: 1px solid #4eb371;
+  border-radius: 11px;
+  background-color: transparent;
+  padding: 7px;
+  -webkit-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
+}
+
+.navbar button:hover {
+  background-color: #4eb371;
+  color: white;
+}
+
 .navbar .nav-links a {
   text-decoration: none;
   font-size: 1.1rem;
@@ -99,6 +114,11 @@
   color: #e9e8e8;
   background-color: transparent;
   border-color: #e9e8e8;
+  border: 1px solid #e9e8e8;
+  border-radius: 12px;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+  padding: 10px;
 }
 
 #intro .I-left .btn:hover {
@@ -189,6 +209,11 @@
   color: #e9e8e8;
   background-color: transparent;
   border: 1px solid white;
+  border: 1px solid #e9e8e8;
+  border-radius: 12px;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+  padding: 10px;
 }
 
 #third .B-left .BTN:hover {
@@ -285,8 +310,20 @@
 }
 
 .fourth .f-bottom .BTN4 {
+  color: #4eb371;
+  border: 1px solid #4eb371;
+  border-radius: 11px;
+  background-color: transparent;
+  padding: 8px;
+  -webkit-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
   margin-left: 37rem;
   margin-bottom: 30px;
+}
+
+.fourth .f-bottom .BTN4:hover {
+  color: white;
+  background-color: #4eb371;
 }
 
 #carry {
@@ -330,7 +367,11 @@
   background-color: transparent;
   color: white;
   padding-left: 2rem;
+  padding: 9px;
+  border-radius: 10px;
   border: 1px solid white;
+  -webkit-transition: ease-in-out .4s;
+  transition: ease-in-out .4s;
 }
 
 #carry .C-left button img {
@@ -343,7 +384,8 @@
 
 #carry .C-left button:hover {
   color: #4eb371;
-  background-color: #37c294;
+  background-color: white;
+  font-size: .9rem;
 }
 
 #carry .C-right {
@@ -564,8 +606,10 @@
   margin-top: 1rem;
   background-color: #4eb371;
   color: white;
+  border: 1px solid #4eb371;
+  border-radius: 8px;
   padding: .3rem 1.5rem;
-  margin-left: 15px;
+  margin-left: 1px;
 }
 
 #Previews {
@@ -752,6 +796,9 @@
   color: white;
   border: 1px solid white;
   margin-right: 10px;
+  padding: 7px;
+  padding-left: 2.4rem;
+  border-radius: 8px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -777,7 +824,10 @@
   display: -ms-flexbox;
   display: flex;
   color: white;
+  padding: 7px;
+  padding-left: 2.4rem;
   border: 1px solid white;
+  border-radius: 8px;
 }
 
 #blackbg .black .b-last .bot-gad .ibtn .headache p {

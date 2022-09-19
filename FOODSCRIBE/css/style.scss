@@ -29,6 +29,21 @@
             color: #4eb371;
         }
     }
+    
+    button{
+        color: #4eb371;
+        border: 1px solid #4eb371;
+        border-radius: 11px;
+        background-color: transparent;
+        padding: 7px;
+        transition: ease-in-out .4s;
+
+        &:hover{
+            background-color: #4eb371;
+            color: white;
+        }
+
+    }
 
     .nav-links{
 
@@ -70,8 +85,13 @@
             color: #e9e8e8;
             background-color: transparent;
             border-color: #e9e8e8;
+            border: 1px solid #e9e8e8;
+            border-radius: 12px;
+            transition: ease-in-out .5s;
+            padding: 10px;
 
             &:hover{
+                
                 background-color: white;
                 color: #4eb371;
             }
@@ -139,6 +159,12 @@
             color: #e9e8e8;
             background-color: transparent;
             border: 1px solid white;
+            border: 1px solid #e9e8e8;
+            border-radius: 12px;
+            transition: ease-in-out .5s;
+            padding: 10px;
+
+
 
             &:hover{
                 color: #4eb371;
@@ -238,9 +264,19 @@
         }
        
       .BTN4{
+            color: #4eb371;
+            border: 1px solid #4eb371;
+            border-radius: 11px;
+            background-color: transparent;
+            padding: 8px;
+            transition: ease-in-out .4s;
+            margin-left: 37rem;
+            margin-bottom: 30px;
 
-           margin-left: 37rem;
-           margin-bottom: 30px;
+            &:hover{
+                color: white;
+                background-color: #4eb371;
+            }
            
               
         }
@@ -281,7 +317,10 @@
           background-color: transparent;
           color: white;
           padding-left: 2rem;
+          padding: 9px;
+          border-radius: 10px;
           border: 1px solid white;
+          transition: ease-in-out .4s;
           img{
               height: 1.2rem;
               align-items: center;
@@ -290,7 +329,8 @@
 
           &:hover{
             color: #4eb371;
-            background-color: #37c294;
+            background-color: white;
+            font-size: .9rem;
 
            
         }
@@ -534,8 +574,10 @@
           margin-top: 1rem;
           background-color: #4eb371;
           color: white;
+          border: 1px solid #4eb371;
+          border-radius: 8px;
           padding: .3rem 1.5rem;
-          margin-left: 15px;
+          margin-left: 1px;
       }
 
 
@@ -722,6 +764,9 @@
                     color: white;
                     border:1px solid white ;
                     margin-right: 10px;
+                    padding: 7px;
+                    padding-left: 2.4rem;
+                    border-radius: 8px;
                     justify-content: space-between;
                     
                     .headache{
@@ -743,7 +788,10 @@
                     background-color: transparent;
                     display: flex;
                     color: white;
+                    padding: 7px;
+                    padding-left: 2.4rem;
                     border:1px solid white ;
+                    border-radius: 8px;
                     
                     .headache{
                         p{
