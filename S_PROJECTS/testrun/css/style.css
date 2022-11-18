@@ -1,0 +1,232 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #5cdb95;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #05386b;
+  border-radius: 5rem;
+}
+
+body {
+  background: #5cdb95;
+  padding-bottom: 6.5rem;
+}
+
+section {
+  padding: 5rem 9%;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1000;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar a {
+  padding: 2rem;
+  font-size: 2rem;
+  background: #00001111;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: white;
+  text-align: center;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #05386b;
+  padding-bottom: 4rem;
+}
+
+.navbar a:hover i {
+  color: white;
+}
+
+.navbar a i {
+  padding-right: 0.8rem;
+  color: #05386b;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -10rem;
+  gap: 4rem;
+  min-height: calc(100vh-6.5rem);
+}
+
+.home .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  text-align: center;
+}
+
+.home .image img {
+  height: 65rem;
+  width: 35rem;
+  -webkit-transition: ease-in-out .5s;
+  transition: ease-in-out .5s;
+  -webkit-filter: drop-shadow(3px 3px 3px black);
+          filter: drop-shadow(3px 3px 3px black);
+}
+
+.home .image img:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  -webkit-filter: drop-shadow(8px 8px 8px black);
+          filter: drop-shadow(8px 8px 8px black);
+}
+
+.home .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+}
+
+.home h3 {
+  color: #05386b;
+  font-size: 3.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.home span {
+  font-size: 3rem;
+  color: #edf5e1;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.home p {
+  font-size: 1.5rem;
+  color: #edf5e1;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio .heading {
+  color: #edf5e1;
+  font-size: 5rem;
+  font-weight: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.portfolio .heading span {
+  color: #05386b;
+}
+
+.portfolio .box-container .first_Box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.portfolio .box-container .first_Box .box_1 {
+  padding: 2rem 0 10rem 0;
+  margin-left: 5rem;
+  border-radius: 3px;
+  text-align: center;
+  background: #05386b;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-box-shadow: 8px 8px 10px black;
+          box-shadow: 8px 8px 10px black;
+}
+
+.portfolio .box-container .first_Box .box_1 img {
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio .box-container .first_Box .box_1 .content h3 {
+  color: #edf5e1;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.portfolio .box-container .first_Box .box_1 .content p {
+  color: #379683;
+  width: 40rem;
+  font-size: 1.7rem;
+}
+
+.portfolio .box-container .first_Box .box_1 .content a {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: bold;
+  color: #8ee4af;
+}
+
+.portfolio .box-container .second_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.portfolio .box-container .second_box .box_2 {
+  padding: 2rem 0 10rem 0;
+  margin-left: 5rem;
+  border-radius: 3px;
+  text-align: center;
+  background: #05386b;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+  -webkit-box-shadow: 8px 8px 10px black;
+          box-shadow: 8px 8px 10px black;
+}
+
+.portfolio .box-container .second_box .box_2 img {
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio .box-container .second_box .box_2 .content h3 {
+  color: #edf5e1;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.portfolio .box-container .second_box .box_2 .content p {
+  color: #379683;
+  width: 40rem;
+  font-size: 1.7rem;
+}
+
+.portfolio .box-container .second_box .box_2 .content a {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  font-weight: bold;
+  color: #8ee4af;
+}
+/*# sourceMappingURL=style.css.map */

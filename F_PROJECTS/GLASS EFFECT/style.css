@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Tahoma";
+}
+
+body {
+  background-image: url(/asset/ment.jpg);
+  background-size: 120rem;
+}
+
+.all {
+  margin: auto;
+  z-index: 1000;
+}
+.all .navbar {
+  position: fixed;
+  margin: 5rem 0 20rem 40rem;
+  display: flex;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 8px;
+  background-color: rgba(12, 30, 45, 0.069);
+}
+.all .navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 2.5rem;
+  padding: 2rem;
+  transition: ease-in-out 0.5s;
+}
+.all .navbar a:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 0px;
+}
+.all .Word {
+  position: fixed;
+  margin: 25rem 0 20rem 43rem;
+}
+.all .Word h2 {
+  font-size: 5rem;
+  letter-spacing: 10px;
+  margin-top: -90px;
+}
+.all .Word h4 {
+  font-family: "Courier New", Courier, monospace;
+}
+.all .Word p {
+  margin-top: 60px;
+  margin-left: 70px;
+  color: #f05a3f;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

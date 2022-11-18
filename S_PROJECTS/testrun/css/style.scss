@@ -1,0 +1,277 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background:#5cdb95;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #05386b;
+        border-radius: 5rem;
+    }
+}
+body{
+    background: #5cdb95;
+    padding-bottom:6.5rem ;
+}
+section {
+    padding: 5rem 9%;
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: flex-end;
+
+    a {
+        padding: 2rem;
+        font-size: 2rem;
+        background: #00001111;
+        flex: 1;
+        color: white;
+        text-align: center;
+        transition: 0.3s linear;
+        text-decoration: none;
+
+        &:hover {
+            background: #05386b;
+            padding-bottom: 4rem;
+
+            i {
+                color: white;
+            }
+        }
+        i{
+            padding-right: 0.8rem;
+            color: #05386b;
+        }
+    }
+   
+}
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -10rem;
+    gap: 4rem;
+    min-height: calc(100vh-6.5rem);
+
+    .image {
+        flex: 1 1 42rem;
+        text-align: center;
+
+        img {
+            height: 65rem;
+            width: 35rem;
+            transition: ease-in-out .5s;
+            filter: drop-shadow(3px 3px 3px black);
+
+            &:hover{
+                
+                transform: rotate(5deg);
+                filter: drop-shadow(8px 8px 8px black);
+            }
+          
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+    }
+
+    h3 {
+        color: #05386b;
+        font-size: 3.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    span {
+        font-size: 3rem;
+        color: #edf5e1;
+        padding: 0.5rem 0;
+        display: block;
+    }
+
+    p {
+       font-size: 1.5rem;
+       color: #edf5e1;
+       padding: 1rem 0;
+       line-height: 2;
+    }
+}
+
+.portfolio {
+          text-align: center;
+         .heading{
+            color: #edf5e1;
+            font-size: 5rem;
+            font-weight: normal;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            span{
+                color: #05386b;
+            }
+         }
+        
+
+         .box-container{
+            
+            .first_Box{
+                display: flex;
+                .box_1{
+                      
+                         padding: 2rem 0 10rem 0;
+                         margin-left: 5rem;
+                         border-radius: 3px;
+                         text-align: center;
+                         background: #05386b;
+                         transition: 0.2s linear;
+                         box-shadow: 8px 8px 10px black;
+        
+                         img {
+                             height: 20rem;
+                             margin-bottom: 1rem;
+                         }
+        
+                         .content {
+                             
+                       
+        
+                             h3 {
+                                 color: #edf5e1;
+                                 font-size: 2.2rem;
+                                 font-weight: bold;
+                             }
+        
+                             p{
+                                 color: #379683;
+                                 width: 40rem;
+                                 font-size: 1.7rem;
+                             }
+                             a {
+                                
+                                 font-size: 1.5rem;
+                                 text-decoration: line-through;
+                                 font-weight: bold;
+                                 color:#8ee4af;
+        
+                             }
+                         }
+                }
+
+            }
+
+
+            .second_box{
+                display: flex;
+                margin-top: 5rem;
+                .box_2{
+                      
+                    padding: 2rem 0 10rem 0;
+                    margin-left: 5rem;
+                    border-radius: 3px;
+                    text-align: center;
+                    background: #05386b;
+                    transition: 0.2s linear;
+                    box-shadow: 8px 8px 10px black;
+   
+                    img {
+                        height: 20rem;
+                        margin-bottom: 1rem;
+                    }
+   
+                    .content {
+                        
+                  
+   
+                        h3 {
+                            color: #edf5e1;
+                            font-size: 2.2rem;
+                            font-weight: bold;
+                        }
+   
+                        p{
+                            color: #379683;
+                            width: 40rem;
+                            font-size: 1.7rem;
+                        }
+                        a {
+                           
+                            font-size: 1.5rem;
+                            text-decoration: line-through;
+                            font-weight: bold;
+                            color:#8ee4af;
+   
+                        }
+                    }
+                }
+
+            }
+ 
+ 
+        }
+
+       
+        
+
+    }
+
+      //  flex: 1;
+            //  display: flex;
+            //  flex-wrap: wrap;
+            //  gap: 2rem;
+
+            // .box {
+            //      flex: 1;
+            //      padding: 2rem;
+            //      border-radius: 0.7rem;
+            //      text-align: center;
+            //      background: burlywood;
+            //      transition: 0.2s linear;
+
+            //      img {
+            //          height: 20rem;
+            //          margin-bottom: 1rem;
+            //      }
+
+            //      .content {
+            //          position: flex;
+            //          top: 0;
+            //          left: 0;
+            //          display: flex;
+            //          flex-flow: column;
+
+            //          h3 {
+            //              color: white;
+            //              font-size: 2rem;
+            //              font-weight: normal;
+            //          }
+
+            //          p{
+            //              color: brown;
+            //              font-size: 1.7rem;
+            //          }
+            //          a {
+            //              font-size: 1.5rem;
+            //              font-weight: normal;
+            //              color:white;
+
+            //              &:hover {
+            //                  font-size: 1.8rem;
+            //                  transition: 0.4s ;
+            //              }
+            //          }
+            //      }
+
+            //      &:hover {
+            //          background: rgb(255, 213, 158);
+            //      }
+
+            // }
